@@ -9,7 +9,7 @@ export const DEFAULT_CONFIG: Readonly<Partial<ConfigProps>> = Object.freeze({
   tabSize: 2,
   placeholder: '',
   autoDestroy: true,
-  extensions: [basicSetup]
+  extensions: []
 })
 
 const CONFIG_SYMBOL = Symbol('vue-codemirror-global-config')
